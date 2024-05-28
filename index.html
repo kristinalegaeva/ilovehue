@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>ilh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="data\style.css">
+    <link rel="stylesheet" href="data\svgcss.css">
+
+</head>
+<body>
+    <div id="logo"><img src="data\logo.svg" height="197px" width="144px"></div>
+    <div class="header">
+        <nav class="menu">
+            <div class="dropdown">
+              <button class="dropbtn">уровень
+              </button>
+              <div class="dropdown-content">
+                <a id='one' href="#">1</a>
+                <a id='two' href="#">2</a>
+                <a id='three' href="#">3</a>
+                <a id='four' href="#">4</a>
+                <a id='five' href="#">5</a>
+                <a id='six' href="#">6</a>
+                <a id='seven' href="#">7</a>
+                <a id='eight' href="#">8</a>
+              </div>
+            </div>
+            <button class = "wrap"><a href="https://i-love-hue.com/" target="_blank">об игре</a></button>
+        </nav>
+    </div>
+    <div class="main">
+        <div id="description">
+            <p>"I Love Hue" - это легкое путешествие в мир цвета и восприятия</p>
+            <p>Составляйте мозаику из цветных плиток в идеально упорядоченные спектры</p>
+            <p>Игра создана с любовью для людей, которым нравятся головоломки</p>
+            <p>или для всех, кому нужно несколько мгновений визуального спокойствия</p>
+        </div>
+        <div class="wall"></div>
+        <div id="barrier">
+            <svg id="win" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 222.17" width="252" height="223">
+                <defs>
+                  <style>
+                    .win-cls-1 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 2px;
+                    }
+              
+                    .win-cls-2 {
+                      fill: #fff;
+                      opacity: .35;
+                    }
+                  </style>
+                </defs>
+                <g>
+                  <path class="win-cls-2 win-svg-elem-1" d="m123.11,70.29S134.56,14.34,176.2,3.56c44.12-11.42,87.49,18.3,71.01,87.77-16.55,69.73-121.33,129.85-121.33,129.85,0,0-102.72-64.32-119.95-123.24C-12.32,35.62,20.39-7.86,65.89,3.56c47.7,11.97,57.22,66.73,57.22,66.73Z"></path>
+                  <path class="win-cls-1 win-svg-elem-2" d="m123.33,70.11S134.78,14.16,176.42,3.38c44.12-11.42,87.49,18.3,71.01,87.77-16.55,69.73-121.33,129.85-121.33,129.85,0,0-102.72-64.32-119.95-123.24C-12.09,35.44,20.62-8.04,66.12,3.38c47.7,11.97,57.22,66.73,57.22,66.73Z"></path>
+                </g>
+              </svg>
+            </div>
+        <div class="container">
+            <div class="puzzle"></div>
+            <div id="movingcell"></div>
+        </div>
+
+    </div>
+    <script src="data\script.js"></script>
+</body>
